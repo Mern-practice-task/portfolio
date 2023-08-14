@@ -1,0 +1,92 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 15;
+    padding: 15;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #db98c4;
+}
+
+
+header {
+    background-color: #77165c;
+    color: white;
+    text-align: center;
+    font-style:Verdana;
+    font-weight: 600;
+    padding: 1em 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: last baseline;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-content: first baseline;
+    text-align: right;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.Portfolio {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.skills h3 {
+    margin-bottom: 10px;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e356bb;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 1.5);
+}
+
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+}
+
+.Portfolio{
+    text-align: center;
+}
